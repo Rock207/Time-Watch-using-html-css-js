@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    
+<link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+   
+</head>
+<body>
+    <h1>
+        STOPWATCH
+    </h1>
+    <p>Made by Your Name</p>
+    <table cellpadding=5>
+        <tr>
+            <td>
+                <h1 class="label" id="hr">00</h1>
+                <p>Hours</p>
+            </td>
+            <td>
+                <h1 class="label" id="min">00</h1>
+                <p>Minutes</p>
+            </td>
+            <td>
+                <h1 class="label" id="sec">00</h1>
+                <p>Seconds</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="reset()" id="reset">Reset</button>
+            </td>
+            <td>
+                <button onclick="stop()" id="stop">Stop</button>
+            </td>
+            <td>
+                <button onclick="start()" id="start">Start</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
